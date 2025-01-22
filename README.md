@@ -1,6 +1,7 @@
 # oh-my-zsh
 my plugins
 
+```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -12,3 +13,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions you-should-use zsh-bat zsh-history-substring-search z sudo dirhistory)
 
 theme: eastwood agnoster
+```
